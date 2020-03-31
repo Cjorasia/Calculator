@@ -12,5 +12,15 @@ function calc(){
     display.value=eval(display.value)
 }
 
+// removing a mistyped value
+var a=1
+function back(){
+    display.value=display.value.substring(0,display.value.length-1)
+}
+
+// clearing whole display
+function clean(){
+    display.value='enter'
+}
 
 
